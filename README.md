@@ -1,9 +1,23 @@
-# feedback-attention-cnn
-CNN classifier models using Feedback Attention
+# Feedback Attention-Based Deep CNN (FABCNN)
+Deep CNN classifier models using Feedback Attention
 
-## ExecuteFeedbackAttentionCNN
+## split_data.py
 
-This script loads a feedback attention model from file, then executes it against a specified input image. 
+This script is to split the dataset.
+
+## train.py
+
+This script is to train the FABCNN, need to change training parameters, like epoch, iteration times, by yourself.
+
+## test.py
+
+This script is to test the classification accuracy and confusion matrix.
+
+## This script is to split the dataset
+
+## ExecuteFeedbackAttentionCNN_mul.py
+
+This script loads a feedback attention model from file, then executes it against a specified input image/image directory. 
 
 If bounding box XML annotations are available, these are also loaded.
 
