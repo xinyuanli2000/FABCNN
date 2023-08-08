@@ -40,10 +40,6 @@ The two script are used to creat new test dataset.
 
 ### Python environment
 
-The following shell commands have been used successfully when executing similar code on an HPC environment. It is recommended to run these against a new, named Conda environment for this project, to avoid breaking existing packages in your local base environement. 
-
-Note that the PyTorch versions were chosen for compatibility with the CUDA drivers on the ARC4 HPC nodes. If your local installation uses a different version of CUDA you may need to select different versions. See
-https://discuss.pytorch.org/t/pytorch-for-cuda-10-2/65524 and https://pytorch.org/get-started/previous-versions/.
 ```
 conda create --name feedback-attention-env python=3.7
 source activate feedback-attention-env
